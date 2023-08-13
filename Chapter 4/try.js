@@ -25,3 +25,14 @@ let str1 = "HI I AM Rahul";
 console.log(str1.toLowerCase());
 
 // Q4
+
+let str3 = "Please give Rs 1000";
+
+let amount = Number.parseInt(str3.slice(15));
+console.log(amount);
+
+// Q5
+
+let name = "Sachin";
+name[0] = "H";
+console.log(name); // Strings are immutable but also not giving error.
