@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  padding: 0 25px;
+}

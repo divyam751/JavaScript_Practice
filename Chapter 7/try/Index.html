@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <table>
+      <th>
+        <tr>
+          <td>Name</td>
+          <td>Class</td>
+          <td>Marks</td>
+        </tr>
+      </th>
+    </table>
+
+    <div class="child">
+      <p>1st child</p>
+      <p>2nd child</p>
+      <p>3rd child</p>
+    </div>
+  </body>
+  <script>
+    document.getElementsByTagName("li")[0].style.color = "red";
+    document.getElementsByTagName("div")[0].firstElementChild.style.color =
+      "green";
+    document.getElementsByTagName("div")[0].lastElementChild.style.color =
+      "green";
+    Array.from(document.getElementsByTagName("li")).forEach((ele) => {
+      ele.style.backgroundColor = "cyan";
+    });
+  </script>
+</html>
