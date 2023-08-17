@@ -1,0 +1,23 @@
+#BOX1 {
+  width: 200px;
+  height: 200px;
+  /* background-color: black; */
+  border: 2px solid;
+  border-radius: 50%;
+  margin-top: -280px;
+  z-index: 0;
+}
+#BOX2 {
+  margin-top: 150px;
+  width: 100px;
+  height: 200px;
+  /* background-color: black; */
+  border-radius: 50%;
+  /* margin-top: -150px; */
+  margin-left: 50px;
+  z-index: 0;
+  border-bottom: 2px solid;
+}
+.color {
+  background-color: yellow;
+}
