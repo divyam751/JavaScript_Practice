@@ -1,4 +1,4 @@
-# JavaScript_Practice
+# JavaScript_Practice :P
 
 # Loops
 
